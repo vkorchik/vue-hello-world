@@ -20,8 +20,14 @@ export default {
     HelloWorld,
     TodoListItem
   },
-  props: {
-    todoList: Array
+  data() {
+    return {
+      todoList: [
+      "1. Do after cat",
+      "2. Do after dog",
+      "3. Do after fish"
+    ]
+    } 
   }
 }
 </script>
